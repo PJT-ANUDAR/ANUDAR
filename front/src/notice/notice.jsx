@@ -34,7 +34,7 @@ export function UptoDate() {
     );
 }
 
-function Notice({ content }) { // props를 알림 객체의 실제 필드명에 맞게 변경
+function Notice(props) { // props를 알림 객체의 실제 필드명에 맞게 변경
     const titleStyle = {
         color: "#000000",
         fontSize: 16,
@@ -57,13 +57,13 @@ function Notice({ content }) { // props를 알림 객체의 실제 필드명에 
                 position: "relative",
             }}/>
             <div style={{ position: "relative", left: "40px", top: "-20px" }}>
-                <div style={title}>{ props.title }</div>
+                <div style={titleStyle}>{ props.title }</div>
             </div>
             <div style={{ position: "relative", left: "100px", top: "-20px"}}>
-                <div style={detail}>{ props.type }</div>
+                <div style={detailStyle}>{ props.type }</div>
             </div>
             <div style={{ position: "relative", left: "-30px", top: "20px" }}>
-                <div style={detail}>{ props.details }</div>
+                <div style={detailStyle}>{ props.details }</div>
             </div>
         </div>
     );

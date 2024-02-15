@@ -64,7 +64,7 @@ export default function MyProfile() {
   return (
     <div className="myprofilearea">
       <div className="left">
-        <img width="200px" height="200px" style={{ objectFit: "cover", borderRadius:"70%", overflow:"hidden" }} src={url} />
+        <img style={{ width: "200px", height: "200px", objectFit: "cover", borderRadius:"70%", overflow:"hidden" }} src={url} />
         <label style={{ display: myeditmode ? "flex" : "none" }} className="myprofileimage" for="profileurl">프로필 사진 수정</label>
         <input type="file" id="profileurl" accept="image/*" onChange={(e) => { upload(e); e.target.value = ""; }} style={{ display: "none" }} />
       </div>

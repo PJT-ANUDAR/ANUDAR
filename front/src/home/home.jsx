@@ -104,14 +104,14 @@ export default function Home() {
             </div>
             <div style={{ margin: "40px 80px", }}>
                 <div className="nowadays">진행 중인 전시회</div>
-                <div onClick={() => { navigate("/exhibit"); setPathName(window.location.pathname); window.scrollTo(0, 0) }} className="nowdetails">더보기 &gt;</div>
+                <div onClick={() => { navigate("/exhibit"); localStorage.setItem("currenttab", "전시회"); setPathName(window.location.pathname); window.scrollTo(0, 0) }} className="nowdetails">더보기 &gt;</div>
                 <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-around", }}>
                     {Object.values(exhibitionnow).map((value) => { return <ExhibitionItem width="330px" height="480px" exhibition={value} /> })}
                 </div>
             </div>
             <div style={{ margin: "80px", }}>
                 <div className="nowadays">금주의 작품</div>
-                <div onClick={() => { navigate("/work"); setPathName(window.location.pathname); window.scrollTo(0, 0) }} className="nowdetails">더보기 &gt;</div>
+                <div onClick={() => { navigate("/work"); localStorage.setItem("currenttab", "작품"); setPathName(window.location.pathname); window.scrollTo(0, 0) }} className="nowdetails">더보기 &gt;</div>
                 <div style={{ display: "flex", justifyContent: "center" }}>
 
                     <div style={{ width: "1000px", }}>

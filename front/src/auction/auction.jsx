@@ -64,7 +64,7 @@ export default function Auction() {
                     title="이달의 경매 입장하기"
                     detail="진행 중인 경매로 이동하시겠습니까?"
                     height={200}
-                    content={<div style={{ height: "50px" }}>{ }</div>}
+                    content={<div style={{ height: "30px" }}>{ }</div>}
                     okfunction={() => { okfunction(); }}
                     cancelfunction={() => { setPopupOpen(false); }}
                     okbutton={true} okbuttonlabel="확인"

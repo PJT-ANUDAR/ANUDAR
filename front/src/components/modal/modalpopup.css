@@ -41,7 +41,7 @@
 .modalactionarea {
     position: relative;
     top: 30px;
-    margin-top: 10px;
+    margin: 10px;
     height: 60px;
     display: flex;
     justify-content: space-around;

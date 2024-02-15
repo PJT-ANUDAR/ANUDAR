@@ -261,7 +261,7 @@ function MyHistory() {
                     <div style={{ cursor: "pointer" }} onClick={() => { setMyWorkSwitch(!myworkswitch); }}>{toggleswitch(myworkswitch)}</div>
                 </div>
             </div>
-            <Modal isOpen={loadingpopup} style={modalsetting}><img src={logo} width="20%" height="30%" /></Modal>
+            <Modal isOpen={loadingpopup} style={modalsetting}><img src={logo} style={{ width: "20%", height: "30%" }} /></Modal>
         </>
     );
 

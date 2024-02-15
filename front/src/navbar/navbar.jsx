@@ -58,8 +58,8 @@ export default function NavBar() {
           <img className="noti" src="../../asset/noti_on.png" />
           : <img className="noti" src="../../asset/noti_off.png" />) : ""}
       </div>
-      <div>{isLogin ?
-        <img width="45px" height="45px" className="mypage" src={loginUser.image?loginUser.image:"../../asset/avatar.png"} onClick={() => { navigate("/user/info"); localStorage.setItem("currenttab", ""); window.scrollTo(0, 0) }} /> : ""}
+      <div style={{ objectFit: "cover" }}>{isLogin ?
+        <img style={{ width: "45px", height: "45px" }} className="mypage" src={loginUser.image?loginUser.image:"../../asset/avatar.png"} onClick={() => { navigate("/user/info"); localStorage.setItem("currenttab", ""); window.scrollTo(0, 0) }} /> : ""}
       </div>
       <div style={{ zIndex: 5, position: "absolute", left: "10px", top: "50px", display: noticepopup ? "block" : "none" }}>
         {loginUser.notifies && loginUser.notifies.length ? 

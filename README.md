@@ -35,7 +35,7 @@
             </a>
         </td>
         <td align="center">
-            <a href="https://github.com/rigoood">
+            <a href="https://github.com/PARK9YUR1">
             박규리
             </a>
         </td>

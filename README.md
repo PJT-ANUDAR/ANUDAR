@@ -4,7 +4,7 @@
 <p style="font-size: 20px;">2024.01.03(수) ~ 2024.02.16(금)</p>
 <br>
 
-## 성과
+## 🏆 성과
 ![image](https://github.com/PJT-ANUDAR/ANUDAR/assets/119795734/07871515-e48f-4f3d-a8bf-cb9a4e92f59a)
 
  

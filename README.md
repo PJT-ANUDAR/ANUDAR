@@ -134,7 +134,7 @@
 
 
 ## 🐣 아키텍처
-<img src="front/public/asset/images/프로젝트 아키텍쳐.jpg"/>
+<img src="front/public/asset/architecture.png"/>
 
 
 
